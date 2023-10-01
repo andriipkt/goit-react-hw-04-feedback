@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+.section {
+  margin-top: 70px;
+}
+
+.feedbackButtons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.statisticsItem {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.statisticsItem span {
+  font-weight: 500;
+  font-size: 18px;
+}
