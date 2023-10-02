@@ -1,4 +1,4 @@
-const Header = ({ showModal }) => {
+const Header = () => {
   return (
     <nav className="navbar bg-dark mb-3">
       <div className="container-fluid">

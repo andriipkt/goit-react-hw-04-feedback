@@ -1,4 +1,5 @@
 import StatisticItem from './StatisticsItem/StatisticsItem';
+import PropTypes from 'prop-types';
 
 function Statistics(data) {
   const dataEntries = Object.entries(data);
@@ -12,7 +13,7 @@ function Statistics(data) {
           <StatisticItem
             key={key}
             text={key}
-            value={key === 'positivePercentage' ? `${value}%` : ` ${value}`}
+            value={key === 'positivePercentage' ? `${value}%` : `${value}`}
           />
         ))}
       </ul>
@@ -21,3 +22,11 @@ function Statistics(data) {
 }
 
 export default Statistics;
+
+Statistics.propTypes = {
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  total: PropTypes.number.isRequired,
+  positivePercentage: PropTypes.number.isRequired,
+};

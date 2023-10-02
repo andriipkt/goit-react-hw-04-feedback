@@ -1,4 +1,5 @@
 import css from '../../Feedback.module.css';
+import PropTypes from 'prop-types';
 
 function StatisticItem({ text, value }) {
   return (
@@ -9,3 +10,8 @@ function StatisticItem({ text, value }) {
 }
 
 export default StatisticItem;
+
+StatisticItem.propTypes = {
+  text: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+};
