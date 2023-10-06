@@ -1,4 +1,4 @@
-import { Feedback } from './Feedback.jsx/Feedback';
+import { Feedback } from './Feedback/Feedback';
 import Header from './Header/Header';
 
 export const App = () => {

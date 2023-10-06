@@ -1,0 +1,9 @@
+.statisticsItem {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.statisticsItem span {
+  font-weight: 500;
+  font-size: 18px;
+}

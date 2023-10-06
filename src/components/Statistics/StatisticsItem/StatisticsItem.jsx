@@ -1,4 +1,4 @@
-import css from '../../Feedback.module.css';
+import css from './StatisticItem.module.css';
 import PropTypes from 'prop-types';
 
 function StatisticItem({ text, value }) {
